@@ -153,4 +153,64 @@ bindsym $mod+r mode "resize"
 # finds out, if available)
 bar {
         status_command i3status
+
+       #        tray_output none
+       font pango:Source Code Pro 8
+
+
+        colors {
+                background #282828
+                statusline #d5c4a1
+
+                #colorclass             border  backgr  text
+                focused_workspace       #d5c4a1 #d5c4a1 #282828
+                active_workspace        #d5c4a1 #d5c4a1 #282828
+                inactive_workspace      #282828 #282828 #d5c4a1
+                urgent_workspace        #cc241d #cc241d #dddddd
+                #binding_mode           #       #       #
+       }
 }
+
+
+
+
+
+# == COLORS ==
+
+# OCEAN V2 COLORS
+# class                 border  backgr. text    indicator
+#client.focused          #39c6fe #39c6fe #282828 #39c6fe
+#client.focused_inactive #39c6fe #282828 #dcdcdc #282828
+#client.unfocused        #39c6fe #282828 #dcdcdc #282828
+#client.urgent           #cc241d #cc241d #dcdcdc #cc241d
+#client.placeholder      #282828 #282828 #dcdcdc #282828
+
+# TWEED / GRUVBOX COLORS
+#client.focused          #d5c4a1 #d5c4a1 #282828 #d5c4a1
+#client.focused_inactive #d5c4a1 #282828 #dcdcdc #282828
+#client.unfocused        #d5c4a1 #282828 #dcdcdc #282828
+#client.urgent           #cc241d #cc241d #dcdcdc #cc241d
+#client.placeholder      #2d2d2d #2d2d2d #dcdcdc #2d2d2d
+
+#GRAYSCALE COLORS
+#client.focused          #dcdcdc #dcdcdc #2d2d2d #dcdcdc
+#client.focused_inactive #2d2d2d #2d2d2d #dcdcdc #2d2d2d
+#client.unfocused        #2d2d2d #2d2d2d #dcdcdc #2d2d2d
+#client.urgent           #ffffff #ffffff #dcdcdc #2d2d2d
+#client.placeholder      #2d2d2d #2d2d2d #dcdcdc #2d2d2d
+
+# NUMIX COLORS
+client.focused          #d64937 #d64937 #2d2d2d #d64937
+client.focused_inactive #2d2d2d #2d2d2d #dcdcdc #2d2d2d
+client.unfocused        #2d2d2d #2d2d2d #dcdcdc #2d2d2d
+client.urgent           #d64937 #d64937 #dcdcdc #d64937
+client.placeholder      #2d2d2d #2d2d2d #dcdcdc #2d2d2d
+
+# OCEAN V1 COLORS
+#client.focused          #cc9966 #39c6fe #F7F7F7 #39c6fe
+#client.focused_inactive #1c727d #1c727d #F7F7F7 #1c727d
+#client.unfocused        #1c727d #1c727d #F7F7F7 #1c727d
+#client.urgent           #C75646 #C75646 #F7F7F7 #C75646
+#client.placeholder      #1c727d #1c727d #F7F7F7 #1c727d
+
+
