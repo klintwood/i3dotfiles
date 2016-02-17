@@ -154,7 +154,6 @@ bindsym $mod+r mode "resize"
 bar {
         status_command i3status
 
-       #        tray_output none
        font pango:Source Code Pro 8
 
 
@@ -163,7 +162,7 @@ bar {
                 statusline #d5c4a1
 
                 #colorclass             border  backgr  text
-                focused_workspace       #d5c4a1 #d5c4a1 #282828
+                focused_workspace       #282828 #282828 #999999
                 active_workspace        #d5c4a1 #d5c4a1 #282828
                 inactive_workspace      #282828 #282828 #d5c4a1
                 urgent_workspace        #cc241d #cc241d #dddddd
