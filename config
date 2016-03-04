@@ -181,7 +181,7 @@ bar {
 # == COLORS ==
 
 # class                 border  backgr. text    indicator
-client.focused          #202020 #202020 #efefef #d64937
+client.focused          #202020 #efefef #202020 #d64937
 client.focused_inactive #2d2d2d #2d2d2d #dcdcdc #2d2d2d
 client.unfocused        #2d2d2d #2d2d2d #dcdcdc #2d2d2d
 client.urgent           #d64937 #d64937 #dcdcdc #d64937
